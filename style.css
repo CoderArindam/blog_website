@@ -145,7 +145,7 @@ main{
 .button_container{
     display: flex;
     justify-content: flex-end;
-    padding-right: 1rem;
+    margin-right: 1rem;
 }
 
 .see_more{
@@ -175,4 +175,70 @@ main{
 
 footer{
     border-top: 1px solid #718096;
+}
+
+@media(max-width: 1024px){
+    html{
+        font-size: 55%;
+    }
+    .hero_section img{
+        max-width: 50vw;}
+    .hero_section{
+        padding:0 4rem;
+    }
+    .card{
+        margin: 5rem 4rem;
+    }
+    .button_container{
+        margin-bottom: 2rem;
+        margin-right: 4rem;
+    }
+    .footer_container{
+        margin: 2rem 4rem;
+    }
+}
+
+@media (max-width:768px){
+    html{
+        font-size: 45%;
+    }
+
+    .hero_section img{
+        max-width: 50vw;
+
+}
+
+    .card img{
+        max-width: 50vw;
+    }
+}
+
+@media(max-width:610px){
+    html{
+        font-size: 35%;
+    }
+
+    .hero_section img{
+        max-width: 40vw;
+
+}
+}
+
+@media (max-width:425px){
+    html{
+        font-size: 25%;
+    }
+
+}
+@media (max-width:320px){
+    html{
+        font-size: 20%;
+    }
+    
+.card_container{
+    display: grid;
+    gap:3rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+}
+
 }
