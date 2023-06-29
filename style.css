@@ -200,7 +200,7 @@ footer{
 
 @media (max-width:768px){
     html{
-        font-size: 45%;
+        font-size: 50%;
     }
 
     .hero_section img{
@@ -215,7 +215,7 @@ footer{
 
 @media(max-width:610px){
     html{
-        font-size: 35%;
+        font-size: 45%;
     }
 
     .hero_section img{
@@ -226,13 +226,17 @@ footer{
 
 @media (max-width:425px){
     html{
-        font-size: 25%;
+        font-size: 30%;
     }
 
+    .hero_section img{
+        max-width: 40vw;
+
+}
 }
 @media (max-width:320px){
     html{
-        font-size: 20%;
+        font-size: 30%;
     }
     
 .card_container{
